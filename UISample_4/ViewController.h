@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
+{
+    CGRect screenFrame;
+    
+    float viewWidth;
+    float viewHeight;
+}
 
 
 @end
